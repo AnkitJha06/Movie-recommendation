@@ -1,0 +1,31 @@
+# Datasets
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Environment/secrets
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
