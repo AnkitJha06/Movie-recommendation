@@ -1,31 +1,27 @@
-# Datasets
-*.csv
-*.tsv
-*.xlsx
-*.xls
-*.json
+# dataset files
+dataset/
+ratings.csv
+movies.csv
+tags.csv
+links.csv
 
-# Python
+# virtual environment
+.venv/
+venv/
+env/
+
+# Python cache files
 __pycache__/
 *.py[cod]
-*.pyo
 
-# Virtual environments
-venv/
-.venv/
-env/
-ENV/
-
-# Jupyter
 .ipynb_checkpoints/
 
-# VS Code
-.vscode/
-
-# Environment/secrets
+# Environment variables
 .env
 .env.*
 
-# OS
 .DS_Store
 Thumbs.db
+
+.vscode/
+.idea/
